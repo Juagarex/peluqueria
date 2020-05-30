@@ -2,3 +2,5 @@ hola soy la rama de edgar, y estoy en remoto.
 
 commit en rama edgar a rama master remota
 
+rama remota edgar
+

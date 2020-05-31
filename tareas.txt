@@ -45,3 +45,5 @@ git pull "rama": trae el Head de la rama master
 git merge "rama": une las dos ramas, commit y me actualiza el head  
 
 git show: me muestra de manera muy detallada los cambios del ultimo commit 
+
+gitk: Muestra de manera grafica con una herramienta auxiliar los cambios del proyecto.

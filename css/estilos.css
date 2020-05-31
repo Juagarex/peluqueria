@@ -1,1 +1,338 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(/images/fondo_pink.jpg); */
+    background-repeat: repeat;
 
+}
+
+
+
+ /* inicio de header */
+
+ header{
+ background-size: cover;
+ width: 0 auto;
+ text-transform: uppercase;
+
+ }
+
+header nav {
+    background-color:rgba(255, 255, 255, 0.294) ;
+    border: 1px solid red;
+    position: fixed;
+    width: 100%;
+    /* background-image: url(/images/fondo_pink.jpg); */
+}
+
+
+
+
+
+
+/* inicio del nav */
+  nav {
+display: flex;
+
+width: 100%;
+height: auto;
+background-color: black;
+justify-content: space-between;
+
+}
+
+
+nav .brand_logo img {
+  border-radius: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+  border-width: 1px;
+  border: 2px dashed black;
+  margin-left:30px ;
+  box-shadow: 5px 10px 8px #888888;
+  background-color: rgba(243, 236, 222, 0.932);
+
+
+}
+
+
+
+ nav ul {
+     display: flex;
+ }
+ nav li{
+     list-style: none;
+     color: black;
+     margin: 15px;
+     border-radius: 5px;
+     border-style: dashed;
+     padding: 10px;
+     background-color: rgba(250, 235, 215, 0.842);
+     box-shadow: 5px 10px 8px #888888;
+ }
+
+ nav li a {
+   display: inline;
+   justify-content: center;
+     color: black;
+     font-size: 20px;
+     text-decoration: none;
+     font-weight: bold;
+     font-family: 'Segoe Print';
+     
+
+ }
+
+ h2.tittle_header {
+ margin-top: 0;
+     font-family: 'Segoe Print';
+     padding-left: 80px ;
+     padding-top: 150px;
+     font-style: normal;
+     font-size: 40px;
+ }
+
+  /*  terminanel nav */
+
+
+  .central{
+    margin-top: 0;
+    width: 100%;
+    min-height: 500px;
+    background-image: url(/images/fondo_header.jpg);
+    background-size: cover; 
+   }
+
+  /*  comienza el main section */
+
+  .main{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+/*  lado derecho */
+
+  .lado_derecho{
+    background-color: #eae9e8;
+    margin: 15px;
+    box-shadow: 5px 10px 8px #888888;
+    width: 50%;
+    min-height: 400px;
+border: 3px dashed black;
+    margin: 15px;
+    border-radius: 25px;
+
+  }
+
+  .lado_derecho h1{
+    text-align: center;
+  }
+
+   
+
+    .container_galeria{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .item {
+      border:1px solid black;
+      width:49.5%;
+      display:inline-block;
+      height:49.5%;
+      overflow:hidden;
+      margin: 5px;
+    
+  }
+
+
+  /* lado izquierdo */
+
+  .lado_izquierdo{
+   
+      width: 50%;
+      border-radius: 25px;
+      border-style: dashed;
+      background-color: #eae9e8;
+      margin: 15px;
+      display: flex;
+      box-shadow: 5px 10px 8px #888888;
+  }
+
+  .container_description{
+      margin: 15px;
+      width: 70%;
+  }
+
+
+  .container_description p{
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Segoe print';
+  font-weight: bold;
+  }
+
+
+  .container_description h1.titulo_lado_left {
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+  }
+
+  .main img {
+    width: 30%;
+   
+  }
+
+  /* final de la primera seccion */
+
+
+
+  /* seccion del lazo */
+
+  .lazo_propaganda{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+ min-height: 120px;
+ justify-content: center;
+ align-items: center;
+  }
+.propaganda_lazo--description{
+    width: 50%;
+  
+  }
+
+
+  .propaganda_lazo--img{
+    width: 50%;
+   
+  }
+
+
+  
+
+  .catalogo{
+    overflow: hidden;
+    margin-top: 100px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+  }
+
+  .catalogo_container{
+
+    min-height: 350px;
+    width: 100%;
+    border-radius: 25px;
+    border-style: dashed;
+    background-color: #eae9e8;
+    margin: 40px;
+    display: flex;
+    box-shadow: 5px 10px 8px #888888;
+    padding-left: 20px;
+  }
+  .catalogo_container-cortes{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    width: 30%;
+    border-radius: 25px;
+    border-style: dashed;
+    background-color: #eae9e8;
+    margin: 40px;
+    justify-content: center;
+    box-shadow: 5px 10px 8px #888888;
+    
+  }
+  .catalogo_container-cortes .cortes-img{
+  border: 1px solid red;
+   background-image: url(/images/manicure.jpg);
+   background-size:cover;
+   width: 100%;
+   
+   min-height: 150px;
+  }
+
+  .catalogo_container-cortes .cortes-link{
+    justify-content: center;
+    margin-top: -20px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+
+  }
+
+  
+  .catalogo_container-manicura{
+    padding-left: 20px;
+    width: 33%;
+    border-radius: 25px;
+    border-style: dashed;
+    background-color: #eae9e8;
+    margin: 40px;
+    display: flex;
+    box-shadow: 5px 10px 8px #888888;
+  }
+
+  .catalogo_container-spa{
+    padding-left: 20px;
+    width: 33%;
+    border-radius: 25px;
+    border-style: dashed;
+    background-color: #eae9e8;
+    margin: 40px;
+    display: flex;
+    box-shadow: 5px 10px 8px #888888;
+  }
+
+
+
+
+
+
+
+ footer{
+   background-color: antiquewhite;
+ }
+
+  footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer ul{
+    display: flex;
+    margin: 0;
+    padding-inline-start: 0px;
+    width: 100%;
+    justify-content: center;
+    list-style:none;
+    align-items: center;
+    
+    
+
+  }
+  footer ul li{
+     border: 1px solid red;
+     margin: 15px;
+     width: 40px;
+     height: 40px;
+    border: 1px solid red ;
+    align-items: center;
+  }
+  footer p{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segou Print';
+
+
+   
+  }
+
+  

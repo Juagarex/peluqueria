@@ -1,0 +1,47 @@
+hola soy la rama de edgar, y estoy en remoto.
+
+commit en rama edgar a rama master remota
+
+rama remota edgar
+
+rama remota edgar al master
+
+
+
+
+comandos de git: 
+
+
+git init: inicializar el git en la carpeta   presente. 
+
+Git add: agrega los archivos que están en untrackect, en otra palabras la base de git les empieza a dar un seguimiento 
+
+Git log: Muestra cual es el HEAD en la rama en la que estamos así como los commits que se han realizado 
+
+Git status: muestra el estado de carpetas y archivos 
+
+Git diff  id_commit1 id_commit2:Muestra las diferencias entre dos commit 
+
+Git commit –m "mensaje": agrega cambios con un comentario adjunto(es obligatorio para tener los cambios en nuewstro git) 
+
+Git commit –am "mensaje": agregar como comentar, ahorrandome el git add 
+
+ Git reset id_commit: borra los cambios hasta ese commit, que se se agregren en un nuevo commit 
+
+Git config –global user.name "usuario": definir el nombre del usuario en el entorno global de git 
+
+Git config –global user.email "email": definir el correo  en el entorno global de git 
+
+git log --stat 
+
+git log --follow -p "filename": muestra un historial detallado de los cambios que ha tenido un archivo 
+
+git branch "nombreRama" : crea una nueva rama en el repositorio 
+
+git checkout "nombreRama": permite cambiar entre ramas del repositorio 
+
+git pull "rama": trae el Head de la rama master 
+
+git merge "rama": une las dos ramas, commit y me actualiza el head  
+
+git show: me muestra de manera muy detallada los cambios del ultimo commit 
